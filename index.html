@@ -1,190 +1,252 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        :root {
-            --bs-font-sans-serif: "Inter", sans-serif;
-            --bs-body-color: #3d302c;
-        }
+      :root {
+        --bs-font-sans-serif: "Inter", sans-serif;
+        --bs-body-color: #3d302c;
+      }
 
-        body {
-            /* puede reemplazar la imagen de encabezado por otra que se funda con el color de fondo (que en este caso es #f7f7f7) */
-            background: #f4f0ed url("img/header.png") center 0 no-repeat;
-            background-size: auto 70vh;
-        }
+      body {
+        /* puede reemplazar la imagen de encabezado por otra que se funda con el color de fondo (que en este caso es #f7f7f7) */
+        background: #f4f0ed url("img/header.png") center 0 no-repeat;
+        background-size: auto 70vh;
+      }
 
-        @media (min-width: 992px) {
-            .container {
-                max-width: 960px;
-            }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
         }
+      }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            letter-spacing: 0.075rem;
-            font-weight: 600;
-        }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        letter-spacing: 0.075rem;
+        font-weight: 600;
+      }
 
-        p em {
-            font-weight: 600;
-            font-style: normal;
-        }
+      p em {
+        font-weight: 600;
+        font-style: normal;
+      }
     </style>
     <title>¿Tragedia o Milagro?</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="container">
-        <div class="row">
-            <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                <!--note que el h1 incluye un atributo de estilo, donde el valor es 71vh (ver línea 18 del código, es igual al segundo valor del background-size)-->
-                <h1 class="text-center" style="padding-top: 70vh;">¿Tragedia o Milagro?</h1>
-                <h2 class="mt-4 mb-5 text-center fs-6 text-black-50">POR AYLIN BASTÍAS</h2>
-            </div>
+      <div class="row">
+        <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+          <!--note que el h1 incluye un atributo de estilo, donde el valor es 71vh (ver línea 18 del código, es igual al segundo valor del background-size)-->
+          <h1 class="text-center" style="padding-top: 70vh">
+            ¿Tragedia o Milagro?
+          </h1>
+          <h2 class="mt-4 mb-5 text-center fs-6 text-black-50">
+            POR AYLIN BASTÍAS
+          </h2>
         </div>
+      </div>
     </header>
 
     <main class="container">
-        <div class="row g-4 pb-5">
-            <article class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                <p class="lead">
-                    Han pasado 50 años desde que una de las historias de supervivencia más trágicas que marcó al mundo
-                    ocurrió. Fue en octubre de 1972 que
-                    el vuelo de la FFAA Uruguaya se accidentó en la cordillera de Los Andes cuando hacía su viaje desde
-                    Uruguay a Chile. 45 personas se subieron a ese avión y desafortunadamente solo <em>16 lograron salir
-                        con vida.</em>
-                </p>
-            </article>
+      <div class="row g-4 pb-5">
+        <article
+          class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto"
+        >
+          <p class="lead">
+            Han pasado 50 años desde que una de las historias de supervivencia
+            más trágicas que marcó al mundo ocurrió. Fue en octubre de 1972 que
+            el vuelo de la FFAA Uruguaya se accidentó en la cordillera de Los
+            Andes cuando hacía su viaje desde Uruguay a Chile. 45 personas se
+            subieron a ese avión y desafortunadamente solo
+            <em>16 lograron salir con vida.</em>
+          </p>
+        </article>
 
-            <article>
-                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                    <h3 class="fs-4 text-center mt-4 mb-3">Ruta de vuelo y zona de choque</h3>
-                    <p>
-                        El equipo de rugby amateur Old Christians Club de Uruguay abordó un avión <i>Fairchild Hiller
-                            FH-227D</i> para así llegar a su
-                        partido en Santiago de Chile y jugar contra el Old Boys Club, grupo de rugby inglés. Tanto la
-                        nave como los pilotos ya habían cruzado la cordillera
-                        más de una vez por lo que las procupaciónes no se encontraban en le radar. </p>
+        <article>
+          <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+            <h3 class="fs-4 text-center mt-4 mb-3">
+              Ruta de vuelo y zona de choque
+            </h3>
+            <p>
+              El equipo de rugby amateur Old Christians Club de Uruguay abordó
+              un avión <i>Fairchild Hiller FH-227D</i> para así llegar a su
+              partido en Santiago de Chile y jugar contra el Old Boys Club,
+              grupo de rugby inglés. Tanto la nave como los pilotos ya habían
+              cruzado la cordillera más de una vez por lo que las preocupaciones
+              no se encontraban en el radar.
+            </p>
 
+            <p>
+              <a
+                href="https://www.youtube.com/watch?v=Hu7-zUUb2nw&ab_channel=MauricioPC"
+                >El viaje</a
+              >
+              comenzó en el Aeropuerto Internacional de Carrasco en Uruguay, sin
+              embargo debido a una tormenta su vuelo fue interrumpido y
+              tuvieron que detenerse en Mendoza, Argentina, para pasar la noche.
+              Al resumir su vuelo con destino a Santiago de Chile el día 13 de
+              octubre, la altitud de las montañas junto con el mal tiempo y
+              juicio del piloto, provocaron que la nave chocara y se estrellara
+              en la cordillera a 3570 metros sobre el nivel del mar.
+            </p>
+          </div>
+          <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <object type="image/svg+xml" data="img/map.svg" class="w-100 my-2">
+              Mapa de las ubicaciones claves del viaje y accidente.
+            </object>
+          </div>
+        </article>
 
-                    <p><a href="https://www.youtube.com/watch?v=Hu7-zUUb2nw&ab_channel=MauricioPC">El viaje</a> comenzó
-                        en el Aeropuerto Internacional de Carrasco en Uruguay, sin embargo debido a una tormenta su
-                        vuelvo fue
-                        interrumpido y tuvieron que detenerse en
-                        Mendoza, Argentina, para pasar la noche. Al resumir su vuelo con destino a Santiago de Chile el
-                        dia 13 de octubre, la altitud de las
-                        montañas junto con el mal tiempo y juicio del piloto, provocaron que la nave chocara y se
-                        estrellara en la cordillera a 3570 metros sobre el nivel del mar.</p>
-                </div>
-                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-                    <object type="image/svg+xml" data="img/map.svg" class="w-100 my-2">
-                        Mapa de las ubicaciones claves del viaje y accidente.
-                    </object>
-                </div>
-            </article>
+        <article>
+          <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+            <h3 class="fs-4 text-center mt-4 mb-3">
+              Entre la vida y la muerte
+            </h3>
+            <p>
+              Tras el choque del <i>Fairchild Hiller FH-227D</i> muchos de los
+              pasajeros y tripulantes fallecieron en la primera semana, dejando
+              un elevado número de muertes
+              <i>(12 fallecidos).</i> Desafortunadamente, esto no fue todo lo
+              que la vida les tendría preparado a los sobrevivientes. Una
+              avalancha sería la nueva amenaza que tomaría aún más vidas
+              <i>(8 fallecidos)</i> y las heridas junto con pésimas condiciones
+              tampoco serían de ayuda
+              <i>(8 muertes por heridas en total y una por inanición).</i> En
+              los 72 días sólo 16 personas a bordo volvieron con vida luego de
+              solo confiar en sus habilidades de sobrevivencia.
+            </p>
 
-            <article>
-                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                    <h3 class="fs-4 text-center mt-4 mb-3">Entre la vida y la muerte</h3>
-                    <p>
-                        Tras el choque del <i>Fairchild Hiller FH-227D</i> muchos de los pasajeros y tripulantes
-                        fallecieron en la primera semana, dejando un elevado número de muertes <i>(12 fallecidos).</i>
-                        Desafortunadamente, esto
-                        no fue todo lo que la vida les tendría preparado a los sobrevivientes. Una avalancha sería la
-                        nueva amenaza que tomaría aún más vidas <i>(8 fallecidos)</i> y las heridas junto con pésimas
-                        condiciones tampoco
-                        serían de ayuda <i>(8 muertes por heridas en total y una por inanición).</i> En los 72 días solo
-                        16
-                        personas a bordo volvieron con vida luego de solo confiar en sus habilidades de
-                        sobrevivencia.</p>
+            <p>
+              A continuación un gráfico que compara de manera cronológica los
+              números de sobrevivientes, desaparecidos y fallecidos.
+            </p>
+          </div>
+          <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <object
+              type="image/svg+xml"
+              data="img/chart.svg"
+              class="w-100 my-2"
+            >
+              Grafico comparativo.
+            </object>
+          </div>
+        </article>
 
-                    <p>A continuación un gráfico que compara de manera cronológica los números de sobrevivientes,
-                        desaparecidos y fallecidos.
-                    </p>
-                </div>
-                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-                    <object type="image/svg+xml" data="img/chart.svg" class="w-100 my-2">
-                        Grafico comparativo.
-                    </object>
-                </div>
-            </article>
+        <article>
+          <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+            <h3 class="fs-4 text-center mt-4 mb-3">
+              Objetivo común: Sobrevivir
+            </h3>
+            <p>
+              A dos meses de la caída del avión, Parrado y Canessa, dos de los
+              sobrevivientes,
+              <a
+                href="https://www.youtube.com/watch?v=KwgofO74fwI&ab_channel=AlexisAlive"
+                >comenzaron a escalar la montaña en busca de ayuda.</a
+              >
+              Gracias a la última declaración del piloto creían que se
+              encontraban más cerca de lo que realmente estaban, por lo que
+              llevaron raciones de comida para solo 3 días.
+            </p>
+            <p>
+              Escalaron y caminaron varios días sin el equipamiento adecuado ni
+              la experiencia necesaria. En un comienzo solo podían ver nieve,
+              pero poco a poco comenzaron a ver más y más signos de presencia
+              humana. Recorrieron aproximadamente 40 km durante 10 días hasta
+              encontrar ayuda.
+            </p>
+          </div>
+          <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <object
+              type="image/svg+xml"
+              data="img/route.svg"
+              class="w-100 my-2"
+            >
+              Ruta que recorrieron Parrado y Canessa.
+            </object>
+          </div>
+          <div
+            class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mt-4 mx-auto"
+          >
+            <p>
+              <em
+                >Las decisiones más difíciles requieren de las voluntades más
+                fuertes.</em
+              >
+              Debemos de recordar que en esta historia la antropofagia no lo es
+              todo. Estas víctimas de la desgracia hicieron todo lo posible para
+              salir de esta tragedia con vida. Debemos respetar la historia de
+              estos sobrevivientes y no deshumanizarlos por haber seguido sus
+              instintos. Después de todo, esta tragedia es también un milagro,
+              ya que luego de que la búsqueda fuese cancelada, la determinación
+              es lo único que los mantuvo con vida.
+            </p>
+          </div>
+        </article>
 
-            <article>
-                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-                    <h3 class="fs-4 text-center mt-4 mb-3">Objetivo común: Sobrevivir</h3>
-                    <p>
-                        A dos meses de la caida del avión, Parrado y Canessa, dos de los sobrevivientes,
-                        <a href="https://www.youtube.com/watch?v=KwgofO74fwI&ab_channel=AlexisAlive">comenzaron a
-                            escalar la montaña en busca de ayuda.</a> Gracias a la última declaración del piloto
-                        creían que se encontraban más cerca de lo que realmente estaban, por lo que llevaron raciones de
-                        comida para solo 3 días.
-                    </p>
-                    <p> Escalaron y caminaron varios días sin el equipamiento adecuado ni la experiencia necesaria. En
-                        un comienzo solo podían ver nieve, pero poco a poco comenzaron a ver más y más signos de
-                        presencia humana. Recorrieron aproximadamente 40 km durante 10 días hasta encontrar ayuda.</p>
-                </div>
-                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-                    <object type="image/svg+xml" data="img/route.svg" class="w-100 my-2">
-                        Ruta que recorrieron Parrado y Canessa.
-                    </object>
-                </div>
-                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mt-4 mx-auto">
-                    <p>
-                        <em>Las decisiones más difíciles requieren de las voluntades más fuertes.</em>
-                        Debemos de recordar que en esta historia la antropofagia no lo es todo. Estas víctimas de la
-                        desgracia
-                        hicieron todo lo posible para salir de esta tragedia con vida. Debemos respetar la historia de
-                        estos sobrevivientes y no deshumanizarlos por haber seguido sus instintos.
-                        Después de todo, esta tragedia es también un milagro, ya que luego de que la búsqueda fuese
-                        cancelada, la determinación es lo único que los mantuvo con vida.
-                    </p>
-                </div>
-            </article>
-
-            <article class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto my-3">
-                <p class="text-black-50 small">
-                    Sitios utilizados: <a href="https://www.youtube.com/watch?v=Hu7-zUUb2nw&ab_channel=MauricioPC"
-                        target="_blank">Simulación de vuelo y accidente</a>, publicado por Mauricio PC (2017). <a
-                        href="https://www.youtube.com/watch?v=KwgofO74fwI&ab_channel=AlexisAlive">Ruta
-                        Nando Canessa</a>, publicado por AlexisAlive (2013). <a
-                        href="https://www.youtube.com/watch?v=1Pg__L5Ijr0&ab_channel=7NEWSSpotlight">Courage and
-                        cannibalism</a>, 7NEWS Spotlight (2021).
-                    <a
-                        href="https://es.wikipedia.org/wiki/Accidente_del_avi%C3%B3n_571_de_la_Fuerza_A%C3%A9rea_Uruguaya#Escalando_la_cima">Accidente
-                        del avión 571 de la Fuerza Aérea Uruguaya</a>, Wikipedia (última vez editada en 2022)
-                </p>
-            </article>
-        </div>
+        <article
+          class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto my-3"
+        >
+          <p class="text-black-50 small">
+            Sitios utilizados:
+            <a
+              href="https://www.youtube.com/watch?v=Hu7-zUUb2nw&ab_channel=MauricioPC"
+              target="_blank"
+              >Simulación de vuelo y accidente</a
+            >, publicado por Mauricio PC (2017).
+            <a
+              href="https://www.youtube.com/watch?v=KwgofO74fwI&ab_channel=AlexisAlive"
+              >Ruta Nando Canessa</a
+            >, publicado por AlexisAlive (2013).
+            <a
+              href="https://www.youtube.com/watch?v=1Pg__L5Ijr0&ab_channel=7NEWSSpotlight"
+              >Courage and cannibalism</a
+            >, 7NEWS Spotlight (2021).
+            <a
+              href="https://es.wikipedia.org/wiki/Accidente_del_avi%C3%B3n_571_de_la_Fuerza_A%C3%A9rea_Uruguaya#Escalando_la_cima"
+              >Accidente del avión 571 de la Fuerza Aérea Uruguaya</a
+            >, Wikipedia (última vez editada en 2022)
+          </p>
+        </article>
+      </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="row py-3">
-                <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-                    <p class="text-center">
-                        <a href="https://github.com/profesorfaco/dno075-2022-2/tree/main/clase-06">Lunes 12 de
-                            septiembre, 2022</a>
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <p class="text-center">
+              <a
+                href="https://github.com/profesorfaco/dno075-2022-2/tree/main/clase-06"
+                >Lunes 12 de septiembre, 2022</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
     <script>
-        var links = document.querySelectorAll("a");
-        links.forEach((l) => l.classList.add("link-dark"));
-        console.log("Esto es JavaScript");
+      var links = document.querySelectorAll("a");
+      links.forEach((l) => l.classList.add("link-dark"));
+      console.log("Esto es JavaScript");
     </script>
-</body>
-
+  </body>
 </html>
